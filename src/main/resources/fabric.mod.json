@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jarbot",
+  "version": "${version}",
+  "name": "Jarbot",
+  "description": "Client-side mod to highlight players and draw tracers. UI opened with Right Shift.",
+  "authors": [
+    "jarbot-author"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.jarbot.JarbotClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
